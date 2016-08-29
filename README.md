@@ -1,3 +1,5 @@
+Contained in this repository:
+
 <ul>
 <li><b>espn.rb</b>: Loops over 8 ESPN Fantasy Football Clubhouse IDs. Uses the Nokogiri and HTTParty gems to webscrape HTML from the ESPN urls given by the Clubhouse IDs. For each team, scrapes the list of all the players, as well as the owner of that team and the team's name. It will also scrape stats for each of the players. It returns that information in a file named [owner].txt, where [owner] is the first name of the team's owner. The script altogether updates 8 .txt files, or makes them if they do not already exist.</li>
 
