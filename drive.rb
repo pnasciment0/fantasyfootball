@@ -41,10 +41,6 @@ ss.save
 
 #ws = session.spreadsheet_by_key("1IdUy4kxFvzXxNhmUaxaM7yDTxDC7cVznpOD2M57en3I").worksheets[0]
 
-#p ws[2,1]
-#ws[1,2] = "THE BIRD IS JONTRON"
-#ws.save
-
 =begin
 (1..16).each do |d|
 	p ws[d,1]
